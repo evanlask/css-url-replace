@@ -1,0 +1,11 @@
+.test-class-none {
+  background: url(/replaced/none.jpg);
+}
+
+.test-class-single {
+  background-image: url('/replaced/single.jpg');
+}
+
+.test-class-double {
+  background: url("/replaced/double.jpg");
+}

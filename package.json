@@ -1,0 +1,30 @@
+{
+  "name": "css-url-replace",
+  "version": "1.0.0",
+  "description": "A command-line tool for parsing and replacing paths found within url() in CSS files.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://evanl@bitbucket.criticalmass.com/scm/bsc/css-url-manifest.git"
+  },
+  "author": "Evan Lask",
+  "license": "MIT",
+  "bin": {
+    "css-url-manifest": "./src/scripts/manifest.js",
+    "css-url-replace": "./src/scripts/replace.js"
+  },
+  "engines": {
+    "node": ">=4.6.0",
+    "npm": ">=3.10.9"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

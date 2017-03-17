@@ -1,0 +1,11 @@
+.test-class {
+  background: url(/replaced/image1.jpg);
+}
+
+.test-class-2 {
+  background: url(/replaced/image2.jpg);
+}
+
+.test-class-3 {
+  background: url(/replaced/image3.jpg);
+}

@@ -1,0 +1,5 @@
+{
+  "../images/image.jpg": "/replaced/image1.jpg",
+  "../images/image2.jpg": "/replaced/image2.jpg",
+  "/images/image3.jpg": "/replaced/image3.jpg"
+}
