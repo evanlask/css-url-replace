@@ -1,6 +1,10 @@
 # css-url-replace
 
+## ABOUT
+
 So you have a CSS file and you need to map image paths to a new location? Rather than using CSS overrides you can use these scripts to generate a new CSS file with the paths of your choosing.
+
+## HOW TO USE
 
 To create a manifest of all file references in a CSS file using `url()` functional notation run the following command.
 
@@ -74,7 +78,7 @@ This will produce the following css.
 }
 ```
 
-The creation of a manifest file and replacement of paths in css can also be done from within node.
+You can also use these tools from within node.
 
 ```javascript
 var createManifest = require('css-url-replace').createManifest;
@@ -89,4 +93,18 @@ createManifest(cssPath, manifestPath);
 // Create a new CSS from another with replacements defined in a manifest
 var destinationPath = path.join('path', 'to', 'styles-replaced.css');
 replace(cssPath, manifestPath, destinationPath);
+```
+
+## UNIT TESTS
+
+Run unit tests using npm.
+
+```
+npm run test
+```
+
+Run unit tests using yarn.
+
+```
+yarn run test
 ```
