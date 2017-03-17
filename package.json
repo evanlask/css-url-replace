@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://evanl@bitbucket.criticalmass.com/scm/bsc/css-url-manifest.git"
+    "url": "https://github.com/evanlask/css-url-replace.git"
   },
   "author": "Evan Lask",
   "license": "MIT",
