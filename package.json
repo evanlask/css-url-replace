@@ -1,7 +1,16 @@
 {
   "name": "css-url-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line tool for parsing and replacing paths found within url() in CSS files.",
+  "keywords": [
+    "css",
+    "url",
+    "json",
+    "replace",
+    "manifest",
+    "image",
+    "path"
+  ],
   "main": "./src/index.js",
   "scripts": {
     "test": "mocha test"
